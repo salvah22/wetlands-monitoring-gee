@@ -16,7 +16,7 @@ The script requires some personal assets upload by the user, more specifically:
 
 A more visual example of how the stratified sampling algorithm is used to prepare the imagery into a table for training the ML algorithm, after all the imagery is gathered and prepared:
 
-![Workflow](.github/stratified_sample.png)
+![Stratified Sampling](.github/stratified_sample.jpg)
 
 After all of the personal assets and input data is set accordingly to your needs, there are some variables that can be set in every run:
 
