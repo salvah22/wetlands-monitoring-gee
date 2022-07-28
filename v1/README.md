@@ -1,6 +1,6 @@
 # Swedish Wetlands classification with GEE
 
-This repository contains 3 scripts, used for monitoring, and mapping wetlands in Sweden, by classifying multi-source data (optical, radar, topographical) with Random Forests machine learning algorithms
+This sub-repository contains 3 scripts, used for and mapping wetlands in Sweden, by classifying multi-source data (optical, radar, topographical) with Random Forests machine learning algorithms
 
 The three scripts are:
 * 1. GEE-Script-COUNT-MODIS.js

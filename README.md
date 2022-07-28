@@ -1,8 +1,8 @@
-# Swedish Wetlands classification with GEE
+# Mapping Swedish Wetlands by classifying multi-source multi-temporal imagery with Random Forests in GEE
 
-This repository contains the JavaScript code developed and run in the Google Earth Engine Code Editor / Playground, for generating the preliminary results displayed in the manuscript (). And the Jupyter Notebook with the scripts used for extracting and polishing those results.
+This repository contains the scripts used for mapping wetlands in Sweden, classifying multi-temporal multi-source (Sentinel-1, Sentinel-2, Topographical) imagery with the Machine Learning Random Forests algorithm.
 
-V1 folder contains less polished scripts, with valuable funtionalities that were dropped for the final manuscript (counting the amount of images, and exporting MODIS LC data). It is preserved as a deprecated version.
+The main tree has the JavaScript code developed and run in the Google Earth Engine Code Editor / Playground, for generating the preliminary results displayed in the manuscript (). And the Jupyter Notebook with the scripts used for extracting and polishing those results.
 
 The workflow followed by the script is coarsely illustrated with the following figure:
 
@@ -28,3 +28,5 @@ After all of the personal assets and input data is set accordingly to your needs
 6. YEAR_STR: a list of years (in string format) for gathering Sentinel-1 & Sentinel-2 imagery from the GEE repositories (I used ['2021']).
 7. SEASONS: a list of strings that can contain any combination of the following strings: 'summer', 'spring', 'winter', 'fall'. I used ['summer'] only, due to very large areas in Sweden being covered by snow in all the other seasons.
 8. BANDS: a list of lists of bands for each input, in this shape: [Sentinel_1_bands, Sentinel_2_bands, Sentinel_Indices, Topographical_Data]. I used [['VV','VH'], [], ['B2','B3','B4','B8'], ['NDVI','NDWI'], ['tpi','twi','slope']].
+
+V1 folder contains less polished scripts, with valuable funtionalities that were dropped for the final manuscript (counting the amount of images, and exporting MODIS LC data). It is preserved as a deprecated version.
