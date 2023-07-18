@@ -18,7 +18,7 @@
  *  2. validation_labels: same as target_labels but for the validation step
  *     NOTE: target_labels must have at least 5 sqkm for each class for each county, to fit 5000 points, while
  *     validation_labels must have at least 15 sqkm for each class for each county, to fit 15000 points.
- *  3. topographic data (dem, slope, tpi, twi), GSD 50+ was used. GEE did not have any high/medium res DEM by the date
+ *  3. topographic data (dem, slope, tpi, twi), used Lantmateriet's Markhöjdmodell Nedladdning GSD 50+ DEM. 
  *  4. sweden_Shp (Översiktskartan) prepared counties shp, this one is not even closely important as 1 & 2.
  *
  * NOTE: indicating VERBOSE == true does not imply that the computation will succeed to be printed in the console,
