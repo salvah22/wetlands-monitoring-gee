@@ -1,6 +1,8 @@
 # Mapping Swedish Wetlands by classifying multi-source multi-temporal imagery with Random Forests in GEE
 
-This repository contains the scripts used for mapping wetlands in Sweden, classifying multi-temporal multi-source (Sentinel-1, Sentinel-2, Topographical) imagery with the Machine Learning Random Forests algorithm.
+This repository contains the scripts used for mapping wetlands in Sweden (RFWI), classifying multi-temporal multi-source (Sentinel-1, Sentinel-2, Topographical) imagery with the Machine Learning Random Forests algorithm.
+
+![RFIW](.github/RFWI_fullpage2.png)
 
 The main tree has the JavaScript code developed and run in the Google Earth Engine Code Editor / Playground, for generating the preliminary results displayed in the manuscript (). And the Jupyter Notebook with the scripts used for extracting and polishing those results.
 
